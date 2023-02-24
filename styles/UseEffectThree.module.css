@@ -10,6 +10,7 @@
     background-size: 1124px;
     background-repeat: no-repeat;
     background-color: var(--background-color-black);
+    font-family: 'Roboto';
 }
 
 .bodyContainer {
@@ -25,11 +26,11 @@
 }
 
 .bodycopy {
-    color: white;
+    color: var(--white);
 }
 
 .numberContainer {
-    color: white;
+    color: var(--white);
     font-size: 90px;
     font-weight: bold;
     text-align: center;
@@ -43,12 +44,12 @@
 
 .button {
   appearance: button;
-  background-color: #7D8491;
+  background-color: var(--button-gray-1);
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: var(--white);
   cursor: pointer;
   display: inline-block;
   font-family: din-round,sans-serif;
@@ -74,7 +75,7 @@
 
 .button:after {
   background-clip: padding-box;
-  background-color: #9CA1AB;
+  background-color: var(--button-gray-2);
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;

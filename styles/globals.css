@@ -1,6 +1,11 @@
 :root {
   --background-color-black: black;
   --background-color-header: #42454C;
+  --white: white;
+  --red: red;
+  --orange: orange;
+  --button-gray-1: #7D8491;
+  --button-gray-2: #9CA1AB;
 }
 
 body {

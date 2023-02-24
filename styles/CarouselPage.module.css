@@ -10,10 +10,11 @@
     background-size: 1124px;
     background-repeat: no-repeat;
     background-color: var(--background-color-black);
+    font-family: 'Roboto';
   }
 
   .bodyContainer h1 {
-    color: white;
+    color: var(--white);
     text-align: center;
     margin: 50px;
   }

@@ -10,6 +10,7 @@
     background-size: 1124px;
     background-repeat: no-repeat;
     background-color: var(--background-color-black);
+    font-family: 'Roboto';
   }
 
   .bodyContainer {
@@ -21,7 +22,7 @@
   }
 
   .rightCol {
-    color: white;
+    color: var(--white);
     max-width: 400px;
   }
 
