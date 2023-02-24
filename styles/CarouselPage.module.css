@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+    background-image: url('/backgroundHome2.jpg');
+    padding: 0;
+    margin: 0;
+    background-size: 1124px;
+    background-repeat: no-repeat;
+    background-color: var(--background-color-black);
+  }
+
+  .bodyContainer h1 {
+    color: white;
+    text-align: center;
+    margin: 50px;
+  }

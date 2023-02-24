@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+    background-image: url('/backgroundHome2.jpg');
+    padding: 0;
+    margin: 0;
+    background-size: 1124px;
+    background-repeat: no-repeat;
+    background-color: var(--background-color-black);
+  }
+  
+  .copyContainer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyContainer h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 0;
+    animation-name:flash;
+    animation-duration:.3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction:alternate;
+  }
+
+  @keyframes flash  {
+    from {
+       color:red;
+    }
+    
+    to {
+       color:orange;
+    }
+ 
+ }
+
+  .subHead {
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .bodyCopy {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .counterContainer {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+  }
